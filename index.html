@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styleMobile.css">
+    <title>Desafio Portflow</title>
 </head>
 <body>
     <header>
+        <button id="ButtonMenu" onclick="abrirMenu()">&#9776;</button>
         <h1>Portflow</h1>
         <nav>
-            <ul>
+            <ul class="UlMenu">
                 <li class="LiOpaca">Home</li>
                 <li class="LiOpaca">Blog</li>
                 <li class="LiOpaca">Valores</li>
@@ -24,7 +26,7 @@
         <section class="ConteinerLaraja">
             <div class="ConteinerDivTextoDaLaraja">
             <h1>Imagine, Discutir, Desenhe.</h1>
-            <p>fale com conosco</p>
+            <a href="#"><p>fale com conosco</p></a> 
         </div>
         </section>
         <section class="ConteinerImagen">
@@ -53,8 +55,10 @@
                 <li><img class="TamanhoImgFooter" src="imagens/YOUTUBE_icon-icons.com_65487.svg" alt=""></li>
             </ul>
         </nav>
-        <p>Copyrigth</p>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi officia na</p>
+        <p class="ContinerPcopyrigtH">Copyrigth</p>
+        <p class="ConteinerPlayouT" > Layout produzido por vai na web para fins exclusivamentes educacionais
+            referêcia: https://br.pinterest.com/pin/464644886562510864/
+        </p>
     </footer>
 </body>
 </html>

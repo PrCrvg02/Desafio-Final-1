@@ -10,18 +10,24 @@
 /*começa a header*/
 
 header{
+    position: fixed;
     display: flex;
     justify-content: space-between;
     /*border: solid rebeccapurple;*/
     align-items: center;
     width: 100%;
     height: 10vh;
+    background-color: #ffffff;
+    z-index: 3;
 }
 header h1{
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     font-weight: 700;
     margin: 1rem;
+}
+#ButtonMenu{
+    display: none;
 }
 nav{
     margin-right: 1rem;
@@ -39,7 +45,7 @@ header ul{
         font-size: 1.2rem;
 
     }
-:hover.LiOpaca{
+.LiOpaca:hover{
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
     font-size: 1.2rem;
@@ -47,18 +53,21 @@ header ul{
 }
 
 /*acaba a header*/
-
+main{
+    padding-top: 4rem;
+}
 /*começa as section */
 
 .ConteinerLaraja{
     width: 100%;
     height:  80vh;
-    /*border: solid red;*/
+  /*border: solid red;*/
     display: flex;
     background-image: url(imagens/laranja\ azul\ recorte.png);
     background-size: 100%;
     background-repeat: no-repeat;
     align-items: center;
+    position: static;
 }   
 .ConteinerDivTextoDaLaraja{
     width: 70%;
@@ -75,27 +84,41 @@ header ul{
     font-size: 3.4rem;
 }
 .ConteinerDivTextoDaLaraja p{
-    padding-top: 3rem;
+    /*border: solid red;*/
+    margin-top: 4rem;
+    width: 25.9vw;
+    height: 7.5vh;
     font-family: 'Montserrat', sans-serif;
     color: #ffffff;
     font-size: 2rem;
     font-weight: 100;
     text-transform: uppercase;
 } 
+.ConteinerDivTextoDaLaraja a{
+    text-decoration: none;
+}
+.ConteinerDivTextoDaLaraja a :hover{
+    text-decoration: underline;
+}
 .ConteinerImagen{
     /*border: solid red;*/
-    margin-top: 4rem;
-    margin-left: 10rem;
-    width: 75%;
-    height: 123vh;
-    flex-wrap: wrap;
-
+    margin-top: 5rem;
+    margin-left: 7rem;
+    width: 83%;
+    height: 99vh;
+    position: static;
 }
 .TamanhoImgMeio{
-    width: auto;
-    height: 40vh;
+    width: 20vw;
+    height: 32vh;
     padding: 5px;
 }
+/*
+:hover.TamanhoImgMeio{
+    width: 25vw;
+    height: 50vh;
+}
+*/
 /* acaba a section*/
 
 /*começa o footer*/
@@ -125,4 +148,13 @@ footer nav{
 }
 .TamanhoImgFooterface{
     width: 0.8vw;
+}
+.ContinerPcopyrigtH{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-right: 2rem;
+}
+.ConteinerPlayouT{
+    text-transform: capitalize;
 }

@@ -1,0 +1,112 @@
+/*----------MOBILE----------*/
+
+@media(min-width:201px) and (max-width: 500px){
+    
+    header{
+       /* border: solid red;*/
+        display: inline-flex;
+        width: 100%;
+        height: 3vh;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    header nav{
+        display: none;
+    }
+    #ButtonMenu{
+        padding-left: 16px;
+        display: flex;
+        width: 24%;
+        height: 2.9vh;
+        background-color: black;
+        color: white;
+        align-items: center;
+    }
+    header h1{
+        display: flex;
+        
+        margin: 0rem;
+        margin-top: 0rem;
+        margin-left: 4px;
+        font-size: 1rem;
+    }
+    main{
+        padding-top: 0px;
+    }
+    .ConteinerLaraja{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 67vh;
+        background-image: url(imagens/laranja.celular.png);
+        background-repeat: no-repeat;
+    }
+    .ConteinerDivTextoDaLaraja{
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        height: 35vh;
+    }
+    .ConteinerDivTextoDaLaraja h1{
+        font-size: 1rem;
+    }
+    .ConteinerDivTextoDaLaraja p{
+        font-size: 0.5rem;
+    }
+    .ConteinerImagen{
+        /*border: solid red;*/ 
+        display: flex;
+        flex-direction: column;
+        margin-top: 0rem;
+        margin-left: 4px;
+        width: 100%;
+        height: 469vh;
+    }
+    .TamanhoImgMeio{
+        width: 96vw;
+        height: 39vh;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        width: 47%;
+        height: 2rem;
+    }
+    footer nav{
+        border: solid red;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 188%;
+        height: 9vh;
+        background-color: #7FDBD4;
+        margin-left: 7.6rem;
+    }
+    footer ul{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-around;
+        background-color: #7FDBD4;
+    }
+    footer li{
+        padding-left: 0;
+        background-color: #7FDBD4;
+    }
+    .TamanhoImgFooter{
+        width: 8vw;
+        margin-left: 1rem;
+    }
+    .TamanhoImgFooterface{
+        width: 3.8vw;
+    }
+    .ContinerPcopyrigtH{
+        font-size: 50px;
+    }
+    .ConteinerPlayouT{
+        font-size: 1rem;
+    }
+    }
+        
+
+
