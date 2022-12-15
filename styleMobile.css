@@ -73,6 +73,7 @@
         height: 39vh;
     }
     footer{
+        background-color: transparent;
         display: flex;
         flex-direction: column;
         width: 47%;
@@ -90,7 +91,7 @@
     }
     footer ul{
         width: 100%;
-        height: auto;
+        height: 6vh;
         display: flex;
         justify-content: space-around;
         background-color: #7FDBD4;
@@ -107,10 +108,19 @@
         width: 3.8vw;
     }
     .ContinerPcopyrigtH{
-        font-size: 50px;
+        font-size: 0.8rem;
     }
     .ConteinerPlayouT{
         font-size: 1rem;
+    }
+    footer button{
+        display: flex;
+        background-color: black;
+        color: gray;
+    }
+    .ConteinerDiv{
+        border: solid red;
+
     }
     }
         

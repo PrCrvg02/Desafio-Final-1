@@ -149,6 +149,7 @@ footer nav{
 .TamanhoImgFooterface{
     width: 0.8vw;
 }
+
 .ContinerPcopyrigtH{
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5rem;
@@ -157,4 +158,7 @@ footer nav{
 }
 .ConteinerPlayouT{
     text-transform: capitalize;
+}
+footer button{
+    display: none;
 }
